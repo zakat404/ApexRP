@@ -1,0 +1,186 @@
+$Montserrat: "Montserrat", sans-serif
+
+body
+  @media ( min-width: 2100px )
+    .footer
+      zoom: 130%
+
+  @media ( min-width: 2300px )
+    .footer
+      zoom: 140%
+
+  @media ( min-width: 2500px )
+    .footer
+      zoom: 150%
+  
+  @media ( min-width: 2700px )
+    .footer
+      zoom: 160%
+
+  @media ( min-width: 2900px )
+    .footer
+      zoom: 170%
+  
+  @media ( min-width: 3100px )
+    .footer
+      zoom: 180%
+
+  @media ( min-width: 3300px )
+    .footer
+      zoom: 190%
+
+  @media ( min-width: 3500px )
+    .footer
+      zoom: 200%
+
+  @media ( min-width: 3700px )
+    .footer
+      zoom: 210%
+
+  @media ( min-width: 3900px )
+    .footer
+      zoom: 220%
+
+  @media ( min-width: 4100px )
+    .footer
+      zoom: 230%
+    
+  @media ( max-width: 1300px )
+    .footer
+      .center-block
+        #one
+          display: none
+
+  @media ( max-width: 950px )
+    .footer
+      .right-block
+        display: none
+
+  @media ( max-width: 710px )
+    .footer
+      zoom: 87%
+
+      .center-block
+        #three
+          display: none
+
+  @media ( max-width: 410px )
+    .footer
+      zoom: 110%
+      flex-direction: column-reverse
+      gap: 2rem
+      padding-bottom: 4rem
+      
+      .left-block
+        .logo-svg
+          display: none
+
+      .center-block
+        zoom: 110%
+    
+
+.footer
+  display: flex
+  align-items: center
+  justify-content: space-around
+  flex-direction: row
+  font-family: $Montserrat
+  margin-top: 5rem
+
+  .left-block
+    margin-bottom: 1vw
+
+    .logo-svg
+      margin-left: -0.5rem
+      width: 3rem
+
+    .info-owner
+      display: flex
+      justify-content: flex-start
+      flex-direction: column
+      gap: 0.9rem
+      margin-top: 1rem
+
+      span
+        font-size: 0.7rem
+        font-weight: 500
+        opacity: 0.7
+
+  .center-block
+    display: flex
+    align-items: flex-start
+    flex-direction: row
+    gap: 2.5rem
+
+    .column
+      display: flex
+      flex-direction: column
+      gap: 1.5rem
+
+      .title
+        font-size: 1rem
+        font-weight: 600
+        text-transform: uppercase
+
+      .link-block
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        gap: 0.8rem
+
+        a
+          cursor: pointer
+          color: #ebf7ff
+          text-decoration: none
+          font-size: 0.7rem
+          font-weight: 500
+          opacity: 0.5
+          transition: all 0.4s
+
+          &:hover
+            opacity: 1
+            transition: all 0.4s
+
+  .right-block
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+    margin-bottom: 1rem
+
+    .payment
+      display: flex
+      align-items: flex-end
+      flex-direction: column
+
+      .title
+        font-size: 0.7rem
+        font-weight: 500
+      
+      .img-block
+        cursor: pointer
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 1.2rem
+        margin-top: 1rem
+
+        img
+          transition: all 0.3s
+          opacity: 0.7
+          border: 0.4px solid #ffffff09
+          background: rgba(56, 73, 133, 0.1568627451)
+          border-radius: 0.2rem
+          padding: 0 0.8rem
+          width: 2rem
+          height: 2rem
+
+          &:hover
+            opacity: 1
+            transition: all 0.3s
+            border: 0.4px solid #ffffff1d
+            background: rgba(56, 73, 133, 0.303)
+
+    .copyright
+      opacity: 0.5
+      margin-top: 1rem
+      font-size: 0.6rem

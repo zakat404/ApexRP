@@ -1,0 +1,15 @@
+.confirmation {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 3.3rem;
+  margin-top: 0.5rem;
+  border-radius: 0.6rem;
+  background: -webkit-gradient(linear, left top, right top, from(#0eff52), to(#178bff));
+  background: linear-gradient(90deg, #0eff52 0%, #178bff 100%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

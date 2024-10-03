@@ -1,0 +1,79 @@
+@media (min-width: 2000px) {
+  body .play .columns {
+    gap: 15rem;
+  }
+}
+@media (min-width: 2200px) {
+  body .play .columns {
+    gap: 23rem;
+  }
+}
+@media (min-width: 2500px) {
+  body .play .columns {
+    gap: 30rem;
+  }
+}
+@media (min-width: 2700px) {
+  body .play .columns {
+    gap: 38rem;
+  }
+}
+@media (min-width: 2900px) {
+  body .play .columns {
+    gap: 46rem;
+  }
+}
+@media (min-width: 3100px) {
+  body .play .columns {
+    gap: 52rem;
+  }
+}
+@media (min-width: 3300px) {
+  body .play .columns {
+    gap: 58rem;
+  }
+}
+@media (min-width: 3600px) {
+  body .play .columns {
+    gap: 60rem;
+  }
+}
+@media (min-width: 3900px) {
+  body .play .columns {
+    gap: 62rem;
+  }
+}
+@media (min-width: 4100px) {
+  body .play .columns {
+    gap: 64rem;
+  }
+}
+@media (max-width: 450px) {
+  body .play .columns {
+    gap: 10rem;
+  }
+}
+@media (max-width: 350px) {
+  body .play .columns {
+    gap: 5rem;
+  }
+}
+
+.play {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 100%;
+}
+.play .columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15rem;
+}

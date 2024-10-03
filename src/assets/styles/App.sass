@@ -1,0 +1,45 @@
+$Montserrat: "Montserrat", sans-serif
+
+body
+  background: #141335
+  color: #ebf7ff
+  margin: 0 0
+  font-family: $Montserrat
+
+  .wiki-bg
+    user-select: none
+    pointer-events: none
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    z-index: -1
+    opacity: 0.5
+    mix-blend-mode: luminosity
+
+  .container
+    position: relative
+    display: flex
+    max-height: 100%
+    padding: 30px 50px 10px 50px
+    overflow: hidden
+    position: relative
+    flex-direction: column
+
+    .containers-page
+      padding-top: 50px
+
+
+body::-webkit-scrollbar
+  width: 5px
+
+body::-webkit-scrollbar-track
+  opacity: 0
+
+body::-webkit-scrollbar-thumb
+  background-color: #cdcdcd2a
+  border-radius: 100px
+
+  &:hover
+    background-color: #cdcdcd5a

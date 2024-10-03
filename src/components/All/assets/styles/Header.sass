@@ -1,0 +1,321 @@
+$Montserrat: "Montserrat", sans-serif
+
+body
+  // displays
+
+  @media ( min-width: 1800px )
+    .header
+      zoom: 105%
+
+  @media ( min-width: 1800px )
+    .header
+      zoom: 110%
+  
+  @media ( min-width: 2000px )
+    .header
+      zoom: 120%
+
+  @media ( min-width: 2200px )
+    .header
+      zoom: 130%
+
+  @media ( min-width: 2400px )
+    .header
+      zoom: 140%
+
+  @media ( min-width: 2600px )
+    .header
+      zoom: 150%
+
+  @media ( min-width: 2800px )
+    .header
+      zoom: 160%
+
+  @media ( min-width: 3000px )
+    .header
+      zoom: 170%
+
+  @media ( min-width: 3200px )
+    .header
+      zoom: 180%
+
+  @media ( min-width: 3500px )
+    .header
+      zoom: 190%
+
+  @media ( min-width: 3700px )
+    .header
+      zoom: 200%
+
+  @media ( min-width: 3900px )
+    .header
+      zoom: 210%
+
+  @media ( min-width: 4100px )
+    .header
+      zoom: 220%
+
+  // mobile
+  @media ( max-width: 75.625rem )
+    .header
+      .right-info
+        .online-server
+          display: none
+
+  @media ( max-width: 62.5rem )
+    .header
+      .right-info
+        .header-btns
+          #one-section
+            .replenish-balance
+              display: none
+
+            #short-replenish
+              display: flex
+
+  @media ( max-width: 790px )
+    .header
+      .menu-list
+        display: none
+
+      .right-info
+        .replenish-balance
+          display: flex
+
+        .header-btns
+          .hamburger-svg
+            display: flex
+
+  @media (max-width: 370px)
+    .header
+      zoom: 90%
+
+  @media (max-width: 300px)
+    .header
+      zoom: 75%
+
+  @media (max-width: 280px)
+    .header
+      zoom: 65%
+  
+.header
+  display: flex
+  align-items: center
+  flex-direction: row
+  justify-content: space-between
+  user-select: none
+  position: relative
+
+  .logo
+    cursor: pointer
+    width: 3.1rem
+
+  .menu-list
+    display: flex
+    gap: 3.6875rem
+
+    a
+      display: flex
+      flex-direction: column
+      align-items: center
+      text-decoration: none
+      width: 100%
+      gap: 0.5rem
+
+      &:hover
+        .line
+          animation: fadeInLine 0.4s ease forwards
+          box-shadow: 0 0 25px 5px rgba(54, 110, 255, 0.25)
+
+      .text
+        cursor: pointer
+        user-select: none
+        text-decoration: none
+        font-weight: 700
+        font-size: 1rem
+        font-family: $Montserrat
+        text-transform: uppercase
+        color: rgb(235, 247, 255)
+        transition: all 0.4s
+        white-space: nowrap
+
+        &:hover
+          color: #5182FF
+          transition: all 0.4s
+
+      .line
+        width: 0
+        height: 0.3rem
+        background: #366EFF
+        animation: fadeOutLine 0.4s ease
+
+  .right-info
+    display: flex
+    flex-direction: row
+    gap: 1.1rem
+    height: 2.5rem
+
+    .online-server
+      display: flex
+      align-items: center
+      justify-content: center
+      height: 100%
+      padding: 0 1.3rem
+      background: #212151
+      border: 0.50px solid rgba(255, 255, 255, 0.15)
+      border-radius: .6rem
+
+      .content-inside
+        display: flex
+        flex-direction: row
+        align-items: center
+        gap: .8rem
+
+        .elipse
+          width: 0.7rem
+          height: 0.7rem
+          background: #1dff77
+          border-radius: 100%
+          animation: onlineElipse 2s infinite
+
+        .text-online
+          display: flex
+          flex-wrap: nowrap
+          width: 8rem
+          font-family: $Montserrat
+          font-size: .75rem
+          font-weight: 600
+          text-transform: uppercase
+
+    .header-btns
+      display: flex
+      flex-direction: row
+      gap: 1.2rem
+
+      #one-section
+        display: flex
+        flex-direction: row
+        gap: 1.1rem
+
+        .discord
+          cursor: pointer
+          display: flex
+          align-items: center
+          justify-content: center
+          height: 100%
+          width: 2.5rem
+          border-radius: .6rem
+          background: #7d4eff
+          transition: all 0.3s
+
+          &:hover
+            transition: all 0.3s
+            box-shadow: 0 0 0 0.3rem #7d4eff48
+
+        #short-replenish
+          display: none
+
+          img
+            width: 1.2rem
+
+        .replenish-balance
+          cursor: pointer
+          display: flex
+          align-items: center
+          justify-content: center
+          gap: 0.5rem
+          height: 100%
+          background: #FF4034
+          border-radius: .6rem
+          transition: all 0.3s
+          padding: 0 1.5rem
+
+          &:hover
+            transition: all 0.3s
+            box-shadow: 0 0 0 0.3rem #ff42344e
+
+          .text
+            width: 8.1rem
+            display: flex
+            flex-wrap: nowrap
+            font-family: $Montserrat
+            font-size: 0.8rem
+            font-weight: 600
+            text-transform: uppercase
+
+      .hamburger-svg
+        cursor: pointer
+        transition: all 0.3s
+        display: none
+        opacity: 0.8
+        width: 2rem
+
+        &:hover
+          transition: all 0.3s
+          opacity: 1
+
+
+.hamburger-menu
+  display: flex
+  align-items: center
+  justify-content: center
+  position: absolute
+  width: 100%
+  height: 100vh
+  left: 50%
+  transform: translate(-50%, 0)
+  background: #211f59
+  z-index: 1000
+
+  .menu-list
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 0 0
+    gap: 2.5rem
+
+    a
+      display: flex
+      font-family: $Montserrat
+      text-transform: uppercase
+      font-size: 1.8rem
+      font-weight: 600
+      color: #ffff
+      text-decoration: none
+      transition: all 0.3s
+
+      &:hover
+        color: #5182FF
+        transition: all 0.3s
+
+  .closed
+    position: absolute
+    top: 0
+    right: 0
+    font-size: 2.5rem
+    font-weight: 600
+    color: #FF4E4E
+
+@keyframes borderStart
+  0%
+    border-bottom: 0vw solid #5182ff
+  100%
+    border-bottom: 0.212vw solid #5182ff
+
+@keyframes onlineElipse
+  0%
+    box-shadow: 0 0 0 0px rgba(29, 255, 119, 0.25)
+  100%
+    box-shadow: 0 0 0 0.5rem rgba(29, 255, 119, 0)
+
+@keyframes fadeInLine
+  from
+    width: 0%
+  to
+    width: 100%
+
+@keyframes fadeOutLine
+  from
+    width: 100%
+  to
+    width: 0%

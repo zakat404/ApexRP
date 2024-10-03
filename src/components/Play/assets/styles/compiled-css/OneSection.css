@@ -1,0 +1,284 @@
+@media (min-width: 1600px) {
+  body .one-section .blocks {
+    zoom: 110%;
+  }
+}
+@media (min-width: 1800px) {
+  body .one-section .blocks {
+    zoom: 120%;
+  }
+}
+@media (min-width: 2000px) {
+  body .one-section .blocks {
+    zoom: 130%;
+  }
+}
+@media (min-width: 2200px) {
+  body .one-section .blocks {
+    zoom: 140%;
+  }
+}
+@media (min-width: 2500px) {
+  body .one-section .blocks {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    zoom: 150%;
+  }
+}
+@media (min-width: 2700px) {
+  body .one-section .blocks {
+    zoom: 160%;
+  }
+}
+@media (min-width: 2900px) {
+  body .one-section .blocks {
+    zoom: 170%;
+  }
+}
+@media (min-width: 3100px) {
+  body .one-section .blocks {
+    zoom: 180%;
+  }
+}
+@media (min-width: 3300px) {
+  body .one-section .blocks {
+    zoom: 190%;
+  }
+}
+@media (min-width: 3500px) {
+  body .one-section .blocks {
+    zoom: 200%;
+  }
+}
+@media (min-width: 3700px) {
+  body .one-section .blocks {
+    zoom: 210%;
+  }
+}
+@media (min-width: 3900px) {
+  body .one-section .blocks {
+    zoom: 220%;
+  }
+}
+@media (min-width: 4100px) {
+  body .one-section .blocks {
+    zoom: 230%;
+  }
+}
+@media (max-width: 1190px) {
+  body .one-section .blocks .right-block .image {
+    width: 26rem;
+  }
+}
+@media (max-width: 1050px) {
+  body .one-section .blocks .right-block {
+    display: none;
+  }
+}
+@media (max-width: 574px) {
+  body .one-section .polygonIMG {
+    display: none;
+  }
+  body .one-section .blocks .left-block {
+    zoom: 85%;
+  }
+  body .one-section .blocks .left-block .text-block .description {
+    width: 28rem;
+  }
+}
+@media (max-width: 450px) {
+  body .one-section .blocks .left-block {
+    zoom: 81%;
+  }
+  body .one-section .blocks .left-block .text-block .description {
+    width: 23rem;
+  }
+}
+@media (max-width: 375px) {
+  body .one-section {
+    height: 25rem;
+  }
+  body .one-section .blocks .left-block {
+    zoom: 75%;
+  }
+  body .one-section .blocks .left-block .text-block .description {
+    width: 23rem;
+  }
+}
+@media (max-width: 325px) {
+  body .one-section {
+    height: 25rem;
+  }
+  body .one-section .blocks {
+    zoom: 80%;
+  }
+}
+@media (max-width: 290px) {
+  body .one-section .blocks {
+    zoom: 75%;
+  }
+}
+
+.one-section {
+  position: relative;
+  height: 32rem;
+}
+.one-section .polygonIMG {
+  position: absolute;
+  width: 8vw;
+  right: -3rem;
+  z-index: -1;
+}
+.one-section .bg-one {
+  pointer-events: none;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: luminosity;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+  top: -10vw;
+  left: -10vw;
+  width: 115vw;
+  opacity: 0.9;
+  z-index: -2;
+}
+.one-section .art {
+  pointer-events: none;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+  right: 11rem;
+  width: 26vw;
+  opacity: 1;
+  z-index: -1;
+}
+.one-section .blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.one-section .blocks .left-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 2.2rem;
+}
+.one-section .blocks .left-block .text-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.1rem;
+}
+.one-section .blocks .left-block .text-block .one-svg {
+  pointer-events: none;
+  width: 6rem;
+}
+.one-section .blocks .left-block .text-block .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #fff;
+  width: 20rem;
+}
+.one-section .blocks .left-block .text-block .title span {
+  color: #0fa851;
+}
+.one-section .blocks .left-block .text-block .description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.05rem;
+  width: 32rem;
+  line-height: 153%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.one-section .blocks .left-block .text-block .description span {
+  color: #0fa851;
+}
+.one-section .blocks .left-block a {
+  text-decoration: none;
+}
+.one-section .blocks .left-block .buy-btn {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 15rem;
+  height: 4.8rem;
+  color: #131c33;
+  background: -webkit-gradient(linear, left top, right top, from(#a196e2), to(#e6c8d1));
+  background: linear-gradient(90deg, #a196e2 0%, #e6c8d1 100%);
+  border-radius: 0.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  z-index: 1000;
+}
+.one-section .blocks .left-block .buy-btn::before {
+  content: "";
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1000;
+  border-radius: 0.4rem;
+  background: -webkit-gradient(linear, left top, right top, from(#e6c8d1), to(#a196e2));
+  background: linear-gradient(90deg, #e6c8d1 0%, #a196e2 100%);
+  -webkit-box-shadow: 0 0 49px 4px rgba(241, 208, 217, 0.05);
+          box-shadow: 0 0 49px 4px rgba(241, 208, 217, 0.05);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.one-section .blocks .left-block .buy-btn:hover::before {
+  opacity: 1;
+}
+.one-section .blocks .right-block .image {
+  border-radius: 0.8rem;
+  pointer-events: none;
+  width: 35rem;
+}

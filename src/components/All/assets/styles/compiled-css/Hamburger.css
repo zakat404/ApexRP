@@ -1,0 +1,88 @@
+@media (max-width: 765px) {
+  body .hamburger {
+    zoom: 87%;
+  }
+}
+@media (max-width: 500px) {
+  body .hamburger {
+    zoom: 83%;
+  }
+}
+@media (max-width: 430px) {
+  body .hamburger {
+    zoom: 75%;
+  }
+}
+@media (max-width: 370px) {
+  body .hamburger {
+    zoom: 70%;
+  }
+}
+
+.ham-visible ~ .container {
+  display: none;
+}
+
+.hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: #1F1E57;
+}
+.hamburger .list-nav {
+  padding: 0 0;
+  margin: 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+.hamburger .list-nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 23rem;
+  height: 7rem;
+  color: rgba(255, 255, 255, 0.8823529412);
+  background: #266FFC;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.hamburger .closed {
+  position: absolute;
+  top: 3.5rem;
+  right: 3.5rem;
+  text-transform: uppercase;
+  padding: 1.5rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: #FC4526;
+  border-radius: 0.6rem;
+}

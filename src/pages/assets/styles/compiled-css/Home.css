@@ -1,0 +1,27 @@
+@media (max-width: 1366px) {
+  body .home .columns {
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  body .home .columns {
+    gap: 0.5rem;
+  }
+}
+
+.home {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.home .columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.5rem;
+}

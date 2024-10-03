@@ -1,0 +1,375 @@
+$Montserrat: "Montserrat", sans-serif
+
+body
+  @media ( min-width: 1700px )
+    .social
+      zoom: 110%
+
+  @media ( min-width: 1900px )
+    .social
+      zoom: 120%
+  
+  @media ( min-width: 2100px )
+    .social
+      zoom: 130%
+  
+  @media ( min-width: 2300px )
+    .social
+      zoom: 140%
+  
+  @media ( min-width: 2500px )
+    .social
+      zoom: 150%
+
+  @media ( min-width: 2700px )
+    .social
+      zoom: 160%
+
+  @media ( min-width: 2900px )
+    .social
+      zoom: 170%
+
+  @media ( min-width: 3100px )
+    .social
+      zoom: 180%
+
+  @media ( min-width: 3300px )
+    .social
+      zoom: 190%
+
+  @media ( min-width: 3500px )
+    .social
+      zoom: 200%
+
+  @media ( min-width: 3700px )
+    .social
+      zoom: 210%
+
+  @media ( min-width: 3900px )
+    .social
+      zoom: 220%
+
+  @media ( min-width: 4100px )
+    .social
+      zoom: 230%
+
+  @media ( max-width: 1312px )
+    .social
+      .elipse-img
+        display: none
+        
+      .content-blocks
+        zoom: 87%
+
+  @media ( max-width: 1162px )
+    .social
+      .content-blocks
+        zoom: 78%
+
+  @media ( max-width: 1044px )
+    .social
+      .content-blocks
+        zoom: 62%
+
+  @media ( max-width: 844px )
+    .social
+      .content-blocks
+        zoom: 55%
+
+  @media ( max-width: 660px )
+    .social
+      margin-top: 12rem
+
+  @media ( max-width: 762px )
+    .social
+      .content-blocks
+        zoom: 52%
+
+        .social-container
+          .social-blocks
+            width: 39.5rem
+
+  @media ( max-width: 736px )
+    .social
+      .content-blocks
+        zoom: 80%
+        justify-content: center
+        flex-wrap: wrap
+        gap: 5rem
+
+  @media ( max-width: 650px )
+    .social
+      margin-top: 16rem
+
+      .content-blocks
+        zoom: 65%
+        gap: 5rem
+
+  @media ( max-width: 577px )
+    .social
+      margin-top: 8rem
+      .content-blocks
+        zoom: 55%
+  
+  @media ( max-width: 450px )
+    .social
+      margin-top: 1rem
+      .content-blocks
+        zoom: 50%
+
+        .social-container
+          zoom: 85%
+
+  @media ( max-width: 380px )
+    .social
+      margin-top: -3rem
+      .content-blocks
+        zoom: 45%
+
+  @media ( max-width: 360px )
+    .social
+      margin-top: 12rem
+
+      .content-blocks
+
+  @media ( max-width: 295px )
+    .social
+      .content-blocks
+        .social-container
+          zoom: 85%
+
+  @media ( max-width: 280px )
+    .social
+      zoom: 80%
+
+.social
+  position: relative
+  font-family: $Montserrat
+  user-select: none
+  margin-top: 2rem
+
+  .elipse-img
+    position: absolute
+    width: 8rem
+    left: -3rem
+
+  .elipses-bg
+    pointer-events: none
+    position: absolute
+    left: 50%
+    transform: translate(-50%, 0)
+    opacity: 0.05
+    z-index: -1
+
+  .content-blocks
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    width: 100%
+
+    .text-block-h
+      display: flex
+      flex-direction: column
+      align-items: center
+      gap: 0.8rem
+
+      .title
+        font-weight: 600
+        font-size: 1.2rem
+        text-transform: uppercase
+
+      .description
+        text-align: center
+        font-weight: 500
+        font-size: 0.9rem
+        line-height: 170%
+        width: 30rem
+        opacity: .8
+
+    .install-container
+      display: flex
+      flex-direction: column
+      gap: 1.5rem
+
+      .blocks
+        display: flex
+        flex-direction: column
+        gap: 1rem
+
+        .block
+          position: relative
+          box-sizing: border-box
+          padding: 1rem 1.7rem
+          width: 35rem
+          background: #222249
+          border: .0625rem solid rgba(255, 255, 255, 0.09)
+          border-radius: 0.5rem
+          overflow: hidden
+
+          .content-inside
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            align-items: center
+
+            #rage-mp
+              width: 3rem
+
+            .logo
+              width: 3.5rem
+
+            .text-block
+              display: flex
+              flex-direction: column
+              gap: 0.5rem
+
+              .title
+                font-size: 0.97rem
+                font-weight: 600
+
+              .description
+                font-size: 0.8rem
+                line-height: 120%
+                width: 18rem
+
+            .btn-block
+              text-decoration: none
+              cursor: pointer
+              outline: none
+              border: none
+              background: #fc4526
+              border-radius: 0.3rem
+              width: 8.5rem
+              height: 2.5rem
+              display: flex
+              flex-wrap: none
+              align-items: center
+              justify-content: center
+              font-family: $Montserrat
+              font-weight: 600
+              font-size: 0.7rem
+              text-transform: uppercase
+              color: #ffff
+              transition: all 0.3s
+
+              &:hover
+                transition: all 0.3s
+                box-shadow: 0 0 0 5px #fc462650
+
+      .problem
+        display: flex
+        align-items: center
+        font-weight: 500
+        font-size: 0.9rem
+        opacity: 0.9
+        gap: 0.5rem
+
+        .link
+          text-decoration: none
+          font-weight: 600
+          color: #fc4526
+          transition: all 0.3s
+
+          &:hover
+            transition: all 0.3s
+            text-decoration: underline
+            text-decoration-skip-ink: none
+
+        img
+          width: 1rem
+
+    .social-container
+      .social-blocks
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        gap: 1rem
+        list-style: none
+        padding: 0 0
+        width: 38.5rem
+
+        .social-b
+          position: relative
+          cursor: pointer
+          display: flex
+          align-items: center
+          justify-content: center
+          width: 12rem
+          height: 6rem
+          background: #222249
+          border: .0625rem solid rgba(255, 255, 255, 0.09)
+          border-radius: 0.5rem
+          overflow: hidden
+          transition: all 0.3s
+
+          &:hover
+            transition: all 0.3s
+            background: #ffffffcc
+
+            .effect
+              transition: all 0.3s
+              display: none
+
+          .effect
+            transition: all 0.3s
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            width: 5rem
+            height: 3.5rem
+            background: #000
+            border-radius: 1vw
+            z-index: 0
+            filter: blur(3rem)
+
+          .social-img
+            position: relative
+            width: 2rem
+            z-index: 1
+
+        #discord
+          .effect
+            background: rgba(78, 78, 255, 0.6)
+
+        #youtube
+          .effect
+            background: rgba(255, 48, 48, 0.6)
+        
+        #tiktok
+          .effect
+            background: rgba(255, 255, 255, 0.6)
+        
+        #instagram
+          .effect
+            background: rgba(255, 22, 232, 0.6)
+        
+        #vk
+          .effect
+            background: rgba(23, 102, 255, 0.6)
+        
+        #telegram
+          .effect
+            background: rgba(0, 194, 255, 0.6)
+
+      .media
+        display: flex
+        align-items: center
+        font-weight: 500
+        font-size: 0.9rem
+        opacity: 0.9
+        gap: 0.5rem
+
+        .link
+          font-weight: 600
+          color: #fc4526
+          transition: all 0.3s
+          text-decoration: none
+
+          &:hover
+            transition: all 0.3s
+            text-decoration: underline
+            text-decoration-skip-ink: none
+
+        img
+          width: 1rem

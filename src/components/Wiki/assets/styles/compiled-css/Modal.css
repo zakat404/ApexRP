@@ -1,0 +1,265 @@
+@media (min-width: 2400px) {
+  body .modal-help {
+    zoom: 110%;
+  }
+}
+@media (min-width: 2600px) {
+  body .modal-help {
+    zoom: 120%;
+  }
+}
+@media (min-width: 2800px) {
+  body .modal-help {
+    zoom: 130%;
+  }
+}
+@media (min-width: 3000px) {
+  body .modal-help {
+    zoom: 140%;
+  }
+}
+@media (min-width: 3200px) {
+  body .modal-help {
+    zoom: 150%;
+  }
+}
+@media (min-width: 3400px) {
+  body .modal-help {
+    zoom: 160%;
+  }
+}
+@media (min-width: 3600px) {
+  body .modal-help {
+    zoom: 170%;
+  }
+}
+@media (min-width: 3800px) {
+  body .modal-help {
+    zoom: 190%;
+  }
+}
+@media (min-width: 4000px) {
+  body .modal-help {
+    zoom: 200%;
+  }
+}
+@media (min-width: 4200px) {
+  body .modal-help {
+    zoom: 210%;
+  }
+}
+@media (max-width: 560px) {
+  body .modal-help .header-section {
+    zoom: 85%;
+  }
+}
+@media (max-width: 490px) {
+  body .modal-help .header-section {
+    zoom: 70%;
+  }
+}
+@media (max-width: 425px) {
+  body .modal-help {
+    zoom: 87%;
+  }
+}
+@media (max-width: 375px) {
+  body .modal-help {
+    zoom: 70%;
+  }
+}
+@media (max-width: 300px) {
+  body .modal-help {
+    zoom: 60%;
+  }
+}
+
+.modal-help {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #16153a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2rem 4rem;
+  overflow-y: auto;
+  z-index: 4000;
+}
+.modal-help::-webkit-scrollbar {
+  width: 5px;
+}
+.modal-help::-webkit-scrollbar-track {
+  opacity: 0;
+}
+.modal-help::-webkit-scrollbar-thumb {
+  background-color: rgba(205, 205, 205, 0.1647058824);
+  border-radius: 100px;
+}
+.modal-help::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(205, 205, 205, 0.3529411765);
+}
+.modal-help .header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.modal-help .header-section .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.modal-help .header-section .close {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #403D9D;
+  border-radius: 0.3rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.modal-help .header-section .close:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0 0 0 7px rgba(64, 61, 157, 0.25);
+          box-shadow: 0 0 0 7px rgba(64, 61, 157, 0.25);
+}
+.modal-help .header-section .close img {
+  width: 0.7rem;
+  opacity: 0.9;
+}
+.modal-help .blocks-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2.5rem;
+  list-style: none;
+  padding: 0 0;
+  width: 100%;
+  margin-top: 2rem;
+}
+.modal-help .blocks-item .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(255, 255, 255, 0.0509803922);
+  border-radius: 0.6rem;
+  width: 18rem;
+  height: 21rem;
+}
+.modal-help .blocks-item .item .content-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 0.9rem;
+  width: 100%;
+}
+.modal-help .blocks-item .item .content-inside .img-item {
+  width: 18rem;
+  border-radius: 0.6rem;
+}
+.modal-help .blocks-item .item .content-inside .descr {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.modal-help .blocks-item .item .content-inside .amount {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.modal-help .blocks-item .item .content-inside .name-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.3rem;
+  padding: 0 1.3rem;
+}
+.modal-help .blocks-item .item .content-inside .block-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.3rem;
+  padding: 0 1.3rem;
+}
+.modal-help .blocks-item .item .content-inside .block-speed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.3rem;
+  padding: 0 1.3rem;
+}
+.modal-help .blocks-item #noVeh {
+  height: 18rem;
+}
+.modal-help .blocks-item #noVeh.skins .content-inside .img-item {
+  padding: 2.5rem 2rem;
+  width: 14rem;
+}
+.modal-help .blocks-item #noVeh.male_clothes .content-inside .img-item {
+  padding: 0rem 4rem;
+  width: 10rem;
+}
+.modal-help .blocks-item #noVeh.female_clothes .content-inside .img-item {
+  padding: 0rem 4rem;
+  width: 10rem;
+}
+.modal-help .blocks-item #noVeh.items .content-inside .img-item {
+  padding: 1.8rem 5rem;
+  width: 8rem;
+}

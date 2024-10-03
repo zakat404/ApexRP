@@ -1,0 +1,271 @@
+$Montserrat: "Montserrat", sans-serif
+
+body
+  @media (min-width: 1500px)
+    .hints
+      zoom: 110%
+  
+  @media (min-width: 1700px)
+    .hints
+      zoom: 120%
+
+  @media (min-width: 1900px)
+    .hints
+      zoom: 130%
+
+      .content-inside
+        .blocks
+          .links-help
+            .block
+              width: 14rem
+
+  @media (min-width: 2100px)
+    .hints
+      zoom: 140%
+
+      .content-inside
+        .blocks
+          .links-help
+            .block
+              width: 15rem
+
+  @media (min-width: 2300px)
+    .hints
+      zoom: 150%
+
+      .content-inside
+        .blocks
+          .links-help
+            .block
+              width: 16rem
+
+  @media (min-width: 2500px)
+    .hints
+      zoom: 160%
+
+      .content-inside
+        .blocks
+          .links-help
+            .block
+              width: 17rem
+  
+  @media (min-width: 2700px)
+    .hints
+      zoom: 170%
+
+      .content-inside
+        .blocks
+          .links-help
+            .block
+              width: 18rem
+
+  @media (min-width: 2900px)
+    .hints
+      zoom: 180%
+
+      .content-inside
+        .blocks
+          .links-help
+            .block
+              width: 19rem
+
+  @media (min-width: 3100px)
+    .hints
+      zoom: 190%
+
+  @media (min-width: 3300px)
+    .hints
+      zoom: 200%
+
+  @media (min-width: 3500px)
+    .hints
+      zoom: 210%
+
+  @media (min-width: 3700px)
+    .hints
+      zoom: 220%
+
+  @media (min-width: 3900px)
+    .hints
+      zoom: 230%
+
+  @media (min-width: 4100px)
+    .hints
+      zoom: 240%
+
+  @media ( max-width: 1340px )
+    .hints
+      .content-inside
+        .blocks
+          .blocks-question
+            justify-content: space-between
+            width: 100%
+
+          .links-help
+            display: none
+
+  @media ( max-width: 1119px )
+    .hints
+      .content-inside
+        .blocks
+          zoom: 87%
+
+  @media ( max-width: 988px )
+    .hints
+      .polygon-img
+        display: none
+
+      .content-inside
+        .blocks
+          zoom: 78%
+    
+  @media ( max-width: 892px )
+    .hints
+      .content-inside
+        .blocks
+          zoom: 68%
+
+  @media ( max-width: 792px )
+    .hints
+      .content-inside
+        .blocks
+          zoom: 60%
+
+  @media ( max-width: 698px )
+    .hints
+      .content-inside
+        .blocks
+          .blocks-question
+            justify-content: center
+
+  @media ( max-width: 395px )
+    .hints
+      zoom: 85%
+
+  @media ( max-width: 310px )
+    .hints
+      zoom: 75%
+
+  @media ( max-width: 280px )
+    .hints
+      zoom: 65%
+    
+
+.hints
+  position: relative
+  font-family: $Montserrat
+  margin-top: 4rem
+  
+  .polygon-img
+    position: absolute
+    right: -3rem
+    width: 8rem
+    margin-top: 20rem
+    z-index: -1
+
+  .hints-bg
+    position: absolute
+    width: 101vw
+    left: -6vw
+    z-index: -1
+
+  .content-inside
+    display: flex
+    align-items: center
+    flex-direction: column
+    gap: 0.5rem
+
+    .title
+      font-size: 1.2rem
+      font-weight: 600
+      text-transform: uppercase
+
+    .blocks
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      justify-content: space-around
+      gap: 2rem
+
+      .blocks-question
+        list-style: none
+        padding: 0 0
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        gap: 1rem
+        width: 63rem
+
+        .hint
+          display: flex
+          flex-direction: column
+          gap: 0.3rem
+          background: #222249
+          border: 1px solid rgba(255, 255, 255, 0.09)
+          border-radius: 0.5rem
+          width: 31rem
+          height: 6rem
+          padding: 1rem 1rem
+          box-sizing: border-box
+
+          .cont-insd
+            display: flex
+            flex-direction: column
+            gap: 0.5rem
+
+            .question
+              font-weight: 600
+              font-size: 1rem
+
+            .answer
+              font-weight: 500
+              font-size: 0.75rem
+              width: 29rem
+
+      .links-help
+        display: flex
+        flex-direction: column
+        gap: 1rem
+        padding: 0 0
+        
+        .block
+          cursor: pointer
+          display: flex
+          flex-direction: row
+          align-items: center
+          justify-content: flex-start
+          gap: 1rem
+          height: 6rem
+          width: 12rem
+          background: #222249
+          border: 1px solid rgba(255, 255, 255, 0.09)
+          border-radius: 0.5rem
+          box-sizing: border-box
+          padding-left: 2.8rem
+          text-decoration: none
+
+          &:hover
+            transition: all 0.3s
+            background: #ffff
+
+            .bulb
+              path
+                transition: all 0.3s
+                stroke: #131C33
+
+            .text
+              transition: all 0.3s
+              color: #131C33
+
+          .bulb
+            width: 1rem
+
+            path
+              transition: all 0.3s
+
+          .text
+            font-weight: 600
+            font-size: 0.9rem
+            text-transform: uppercase
+            transition: all 0.3s
+            color: #ffff

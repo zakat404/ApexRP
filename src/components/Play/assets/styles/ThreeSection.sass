@@ -1,0 +1,234 @@
+$Montserrat: "Montserrat", sans-serif
+
+body
+  @media ( min-width: 1600px )
+    .three-section
+      .blocks
+        zoom: 110%
+
+  @media ( min-width: 1800px )
+    .three-section
+      .blocks
+        zoom: 120%
+
+  @media ( min-width: 2000px )
+    .three-section
+      .blocks
+        zoom: 130%
+
+  @media ( min-width: 2200px )
+    .three-section
+      .blocks
+        zoom: 140%
+
+  @media ( min-width: 2500px )
+    .three-section
+      .blocks
+        justify-content: space-around
+        zoom: 160%
+
+  @media ( min-width: 2700px )
+    .three-section
+      .blocks
+        zoom: 180%
+
+  @media ( min-width: 2900px )
+    .three-section
+      .blocks
+        zoom: 190%
+
+  @media ( min-width: 3100px )
+    .three-section
+      .blocks
+        zoom: 200%
+
+  @media ( min-width: 3300px )
+    .three-section
+      .blocks
+        zoom: 210%
+  
+  @media ( min-width: 3500px )
+    .three-section
+      .blocks
+        zoom: 220%
+
+  @media ( min-width: 3700px )
+    .three-section
+      .blocks
+        zoom: 230%
+
+  @media ( min-width: 3900px )
+    .three-section
+      .blocks
+        zoom: 240%
+
+  @media ( min-width: 4100px )
+    .three-section
+      .blocks
+        zoom: 250%
+
+  @media ( max-width: 1050px )
+    .three-section
+      .blocks
+        .right-block
+          .image
+            width: 23rem
+
+  @media ( max-width: 930px )
+    .three-section
+      .blocks
+        .right-block
+          display: none
+
+  @media ( max-width: 508px )
+    .three-section
+      .polygon-img
+        display: none
+      .blocks
+        zoom: 87%
+    
+  @media ( max-width: 450px )
+    .three-section
+      .blocks
+        zoom: 80%
+  
+  @media ( max-width: 450px )
+    .three-section
+      .blocks
+        zoom: 75%
+
+  @media ( max-width: 380px )
+    .three-section
+      .blocks
+        zoom: 68%
+  
+  @media ( max-width: 355px )
+    .three-section
+      .blocks
+        zoom: 63%
+
+  @media ( max-width: 310px )
+    .three-section
+      .blocks
+        zoom: 50%
+
+
+.three-section
+  position: relative
+  height: 25rem
+
+  .polygon-img
+    position: absolute
+    right: -5rem
+    z-index: -1
+    margin-top: 0rem
+    width: 8vw
+
+  .elipse-img
+    position: absolute
+    left: -7vw
+    z-index: -1
+    margin-top: 22vw
+    width: 8vw
+
+  .bg-three
+    pointer-events: none
+    position: absolute
+    object-fit: cover
+    background-size: cover
+    background-position: center
+    transform: translateY(0)
+    top: -12vw
+    left: -10vw
+    width: 115vw
+    opacity: 0.8
+    z-index: -2
+
+  .blocks
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+
+    .left-block
+      display: flex
+      flex-direction: column
+      align-items: flex-start
+      gap: 2.2rem
+
+      .text-block
+        display: flex
+        flex-direction: column
+        gap: 1.1rem
+
+        .three-svg
+          pointer-events: none
+          width: 6rem
+
+        .title
+          font-family: $Montserrat
+          font-weight: 900
+          font-size: 48px
+          line-height: 125%
+          text-transform: uppercase
+          color: #fff
+          width: 20rem
+
+        .description
+          font-family: $Montserrat
+          font-weight: 500
+          font-size: 1.05rem
+          width: 25rem
+          line-height: 153%
+          color: rgba(255, 255, 255, 0.8)
+
+          #rage
+            color: #ffd000
+
+          #apex
+            color: #2B80FF
+
+      .btn-copy
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 1rem
+        cursor: pointer
+        outline: none
+        border: none
+        width: 17rem
+        height: 4.8rem
+        color: #131c33
+        background: linear-gradient(90deg, #da895a 0%, #97c2f4 100%)
+        border-radius: 0.4rem
+        font-family: $Montserrat
+        font-size: 0.85rem
+        font-weight: 600
+        text-transform: uppercase
+        z-index: 1000
+
+        &::before
+          content: ""
+          display: block
+          opacity: 0
+          position: absolute
+          top: 0
+          left: 0
+          width: 100%
+          height: 100%
+          z-index: -1000
+          border-radius: 0.4rem
+          background: linear-gradient(90deg, #97c2f4 0%, #da895a 100%)
+          box-shadow: 0 0 49px 4px rgba(241, 208, 217, 0.05)
+          transition: opacity 0.3s ease-in-out
+
+        &:hover
+          &::before
+            opacity: 1
+
+    .right-block
+      .image
+        border-radius: 0.8rem
+        pointer-events: none
+        width: 30rem

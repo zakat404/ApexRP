@@ -1,0 +1,156 @@
+$Montserrat: "Montserrat", sans-serif
+
+body
+  @media ( min-width: 2000px )
+    .payment-block
+      zoom: 110%
+    
+  @media ( min-width: 2200px )
+    .payment-block
+      zoom: 120%
+
+  @media ( min-width: 2400px )
+    .payment-block
+      zoom: 130%
+
+  @media ( min-width: 2600px )
+    .payment-block
+      zoom: 140%
+  
+  @media ( min-width: 2800px )
+    .payment-block
+      zoom: 150%
+
+  @media ( min-width: 3000px )
+    .payment-block
+      zoom: 160%
+
+  @media ( min-width: 3200px )
+    .payment-block
+      zoom: 170%
+
+  @media ( min-width: 3400px )
+    .payment-block
+      zoom: 180%
+
+  @media ( min-width: 3600px )
+    .payment-block
+      zoom: 190%
+
+  @media ( min-width: 3800px )
+    .payment-block
+      zoom: 200%
+
+  @media ( min-width: 4000px )
+    .payment-block
+      zoom: 210%
+
+  @media ( min-width: 4200px )
+    .payment-block
+      zoom: 220%
+    
+  @media ( max-width: 840px )
+    .payment-block
+      zoom: 87%
+  
+  @media ( max-width: 720px )
+    .payment-block
+      zoom: 70%
+  
+  @media ( max-width: 600px )
+    .payment-block
+      zoom: 60%
+  
+  @media ( max-width: 480px )
+    .payment-block
+      zoom: 50%
+
+  @media ( max-width: 370px )
+    .payment-block
+      zoom: 40%
+
+  @media ( max-width: 300px )
+    .payment-block
+      zoom: 30%
+
+  @media ( max-width: 250px )
+    .payment-block
+      zoom: 20%
+
+.pay-visible ~ .container
+  display: none
+
+.payment-block
+  display: flex
+  align-items: center
+  justify-content: center
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: 1000
+
+  .payment-bg-main
+    user-select: none
+    pointer-events: none
+    position: absolute
+    width: 100%
+    top: 0
+    left: 0
+    z-index: -1
+    opacity: 0.3
+    mix-blend-mode: luminosity
+
+  .closed
+    cursor: pointer
+    position: absolute
+    right: 4rem
+    top: 3rem
+    background: #272754
+    border: 0.50px solid rgba(255, 255, 255, 0.09)
+    padding: 0.8rem 2rem
+    border-radius: 0.5rem
+    font-size: 0.9rem
+    font-weight: 500
+    transition: all 0.3s
+
+    &:hover
+      transition: all 0.3s
+      background: #3b3b8a
+
+  .container-b
+    position: relative
+    overflow: hidden
+    width: 48rem
+    height: 30rem
+    border-radius: 2rem
+    padding: 1rem 1rem
+    
+    .pay-bg
+      width: 110%
+      height: 108%
+      left: -2rem
+      top: 0rem
+      position: absolute
+      z-index: -1
+
+    .content-inside
+      display: flex
+      flex-direction: row
+      justify-content: space-around
+      align-items: center
+      width: 97%
+      position: absolute
+      top: 50%
+      transform: translate(0, -50%)
+
+      .left-block
+        width: 23rem
+
+      .price-coin
+        background: linear-gradient(45deg, #db06bd 0.07%, #dd4426 100%)
+        padding: 1rem 2.5rem
+        border-radius: 0.6rem
+        font-family: $Montserrat
+        font-weight: 600
+        font-size: 0.9rem
+        text-transform: uppercase
