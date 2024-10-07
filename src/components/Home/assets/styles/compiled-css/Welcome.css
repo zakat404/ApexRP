@@ -1,434 +1,234 @@
 @media (min-width: 1721px) {
-  body .welcome {
-    zoom: 110%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 3rem;
-    width: 45rem;
-  }
+    width: 45rem; }
   body .welcome .main-content .right-content {
-    margin-right: 6rem;
-  }
-}
+    margin-right: 6rem; } }
+
 @media (min-width: 2000px) {
-  body .welcome {
-    zoom: 120%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 4rem;
-    width: 48rem;
-  }
+    width: 48rem; }
   body .welcome .main-content .right-content {
-    margin-right: 7rem;
-  }
-}
+    margin-right: 7rem; } }
+
 @media (min-width: 2250px) {
-  body .welcome {
-    zoom: 130%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 3rem;
-    width: 50rem;
-  }
+    width: 50rem; }
   body .welcome .main-content .right-content {
-    zoom: 115%;
-    margin-right: 3rem;
-  }
-}
+    margin-right: 3rem; } }
+
 @media (min-width: 2500px) {
-  body .welcome {
-    zoom: 140%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 4rem;
-    width: 53rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 120%;
-  }
-}
+    width: 53rem; } }
+
 @media (min-width: 2700px) {
-  body .welcome {
-    zoom: 150%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 5rem;
-    width: 56rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 120%;
-  }
-}
+    width: 56rem; } }
+
 @media (min-width: 2900px) {
-  body .welcome {
-    zoom: 160%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 5rem;
-    width: 56rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 120%;
-  }
-}
+    width: 56rem; } }
+
 @media (min-width: 3100px) {
-  body .welcome {
-    zoom: 170%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 5rem;
-    width: 56rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 120%;
-  }
-}
+    width: 56rem; } }
+
 @media (min-width: 3300px) {
-  body .welcome {
-    zoom: 180%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 5rem;
-    width: 56rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 120%;
-  }
-}
+    width: 56rem; } }
+
 @media (min-width: 3500px) {
-  body .welcome {
-    zoom: 190%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 5rem;
-    width: 56rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 120%;
-  }
-}
+    width: 56rem; } }
+
 @media (min-width: 3700px) {
-  body .welcome {
-    zoom: 200%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 5rem;
-    width: 56rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 120%;
-  }
-}
+    width: 56rem; } }
+
 @media (min-width: 3900px) {
-  body .welcome {
-    zoom: 210%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 5rem;
-    width: 56rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 120%;
-  }
-}
+    width: 56rem; } }
+
 @media (min-width: 4100px) {
-  body .welcome {
-    zoom: 220%;
-  }
   body .welcome .main-content .main-img {
     margin-left: 5rem;
-    width: 56rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 120%;
-  }
-}
+    width: 56rem; } }
+
 @media (max-width: 1370px) {
-  body .welcome {
-    zoom: 150%;
-  }
   body .welcome .main-content {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
+    justify-content: center; }
   body .welcome .main-content .main-img {
-    display: none;
-  }
-}
+    display: none; } }
+
 @media (max-width: 1147px) {
   body .welcome .main-content .main-img {
     margin-top: 4rem;
-    width: 45rem;
-  }
-}
+    width: 45rem; } }
+
 @media (max-width: 1100px) {
   body .welcome .main-content {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
+    justify-content: center; }
   body .welcome .main-content .main-img {
-    display: none;
-  }
-}
-@media (max-width: 845px) {
-  body .welcome {
-    zoom: 100%;
-  }
-}
+    display: none; } }
+
 @media (max-width: 594px) {
-  body .welcome {
-    zoom: 95%;
-  }
   body .welcome .points-img {
-    display: none;
-  }
+    display: none; }
   body .welcome .main-content .right-content .texts .description {
-    width: 26rem;
-  }
-}
-@media (max-width: 547px) {
-  body .welcome .elipse-bg {
-    display: none;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 93%;
-  }
-}
-@media (max-width: 488px) {
-  body .welcome {
-    height: 27rem;
-  }
-  body .welcome .main-content .right-content {
-    zoom: 88%;
-  }
-}
+    width: 26rem; } }
+
 @media (max-width: 430px) {
-  body .welcome .main-content .right-content {
-    zoom: 73%;
-  }
-}
+  body .welcome .main-content .right-content .texts .main-title {
+    font-size: 1rem !important; }
+  body .welcome .main-content .right-content .texts .description {
+    width: 22rem; } }
+
 @media (max-width: 400px) {
-  body .welcome .main-content .right-content {
-    zoom: 69%;
-  }
+  body .welcome .main-content .right-content .texts .main-title {
+    font-size: 1.4rem; }
   body .welcome .main-content .right-content .texts .description {
-    width: 26rem;
-  }
-}
+    width: 22rem; } }
+
 @media (max-width: 360px) {
-  body .welcome .main-content .right-content {
-    zoom: 65%;
-  }
-  body .welcome .main-content .right-content .texts .title {
-    zoom: 90%;
-  }
+  body .welcome .main-content .right-content .texts .apex-logo {
+    width: 20rem; }
+  body .welcome .main-content .right-content .texts .main-title {
+    font-size: 1.4rem; }
   body .welcome .main-content .right-content .texts .description {
-    width: 22rem;
-  }
-}
+    width: 16rem; } }
+
 @media (max-width: 300px) {
-  body .welcome .main-content .right-content {
-    zoom: 65%;
-  }
-  body .welcome .main-content .right-content .texts .title {
-    zoom: 80%;
-  }
+  body .welcome .main-content .right-content .texts .apex-logo {
+    width: 14rem; }
+  body .welcome .main-content .right-content .texts .main-title {
+    font-size: 1rem; }
   body .welcome .main-content .right-content .texts .description {
-    width: 20rem;
-  }
-}
+    width: 14rem; } }
+
 @media (max-width: 280px) {
-  body .welcome .main-content .right-content .texts .title {
-    zoom: 70%;
-  }
   body .welcome .main-content .right-content .texts .description {
-    width: 17rem;
-  }
-}
+    width: 14rem; } }
+
 @media (max-width: 260px) {
-  body .welcome .main-content .right-content .texts .title {
-    zoom: 60%;
-  }
+  body .welcome .main-content .right-content .texts .main-title {
+    width: 12rem !important; }
   body .welcome .main-content .right-content .texts .description {
-    zoom: 95%;
-    width: 15rem;
-  }
-}
+    width: 15rem; } }
 
 .welcome {
-  height: 37rem;
-}
+  height: 37rem; }
 .welcome .elipse-bg {
   position: absolute;
   right: -3rem;
   width: 8rem;
-  z-index: -1;
-}
+  z-index: -1; }
 .welcome .points-img {
   position: absolute;
   margin-top: 12rem;
   left: -9rem;
   z-index: -1;
-  width: 19rem;
-}
+  width: 19rem; }
 .welcome .background-one {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   pointer-events: none;
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
   z-index: -1;
-  mix-blend-mode: luminosity;
-}
+  mix-blend-mode: luminosity; }
 .welcome .main-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+  justify-content: space-between; }
 .welcome .main-content .main-img {
   pointer-events: none;
-  position: absolute;
   left: 1rem;
   width: 40rem;
   margin-top: -2rem;
-  z-index: 0;
-}
+  z-index: 0; }
 .welcome .main-content .right-content {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 3rem;
   margin-top: 4rem;
-  z-index: 1;
-}
+  z-index: 1; }
 .welcome .main-content .right-content .texts {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 1.5rem;
-  width: 34rem;
-}
+  width: 34rem; }
 .welcome .main-content .right-content .texts .apex-logo {
-  width: 25rem;
-}
+  width: 25rem; }
 .welcome .main-content .right-content .texts .texts-b {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 1vw;
-}
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw; }
 .welcome .main-content .right-content .texts .texts-b .main-title {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.8rem;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 .welcome .main-content .right-content .texts .texts-b .main-title span {
-  color: #0fa851;
-}
+  color: #0fa851; }
 .welcome .main-content .right-content .texts .texts-b .description {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 0.9rem;
   line-height: 176%;
-  color: rgba(255, 255, 255, 0.8);
-}
+  color: rgba(255, 255, 255, 0.8); }
 .welcome .main-content .right-content .texts .texts-b .description span {
   text-transform: uppercase;
   color: #2B80FF;
-  font-weight: 600;
-}
+  font-weight: 600; }
 .welcome .main-content .right-content .texts .texts-b #gta5 {
   color: #0fa851;
-  font-weight: 600;
-}
+  font-weight: 600; }
 .welcome .main-content .right-content .start-game {
   text-decoration: none;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   outline: none;
   border: none;
   background: linear-gradient(45deg, #db06bd 0.07%, #dd4426 100%);
   border-radius: 0.3rem;
   padding: 1rem 1.9rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 15rem;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
+  transition: all 0.3s; }
 .welcome .main-content .right-content .start-game:hover {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-shadow: 0 0 0 6px rgba(221, 69, 38, 0.2588235294);
-          box-shadow: 0 0 0 6px rgba(221, 69, 38, 0.2588235294);
-}
+  box-shadow: 0 0 0 6px #dd452642; }
 .welcome .main-content .right-content .start-game:hover .next-svg {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #ff4261;
-}
+  background: #ff4261; }
 .welcome .main-content .right-content .start-game span {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 0.85rem;
   text-transform: uppercase;
-  color: #fff;
-}
+  color: #fff; }
 .welcome .main-content .right-content .start-game .next-svg {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #ff2b50;
   border-radius: 0.3rem;
   width: 0.9rem;
-  padding: 0.7rem 0.7rem;
-}
+  padding: 0.7rem 0.7rem; }

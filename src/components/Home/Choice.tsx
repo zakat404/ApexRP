@@ -80,40 +80,41 @@ const Choice = () => {
 
         <div className="persons">
           <img className='criminal' src={criminalPerson} id={`${choiceLife == 'criminal' ? 'act-person-c' : ''}`} />
-          <img className='gos' src={gosPerson} id={`${choiceLife == 'criminal' ? 'act-person-g' : ''}`} />
-        </div>
-        <div className="center-content">
+          <div className="center-content">
           <span className="big-text">
             <span>APEX ROLEPLAY</span> предлагает уникальную возможность погрузиться в виртуальный мир, где ты можешь играть любую роль, следуя правилам, схожим с реальной жизнью. Ты можешь стать политиком, бандитом, бизнесменом, таксистом, рабочим на заводе или полицейским — выбор за тобой! Здесь нет ограничений: создавай свою историю и исследуй разнообразные пути развития в этом захватывающем мире!
           </span>
-          <span className="question">Ты готов?</span>
+            <span className="question">Ты готов?</span>
 
-          <div className="img-block-choice">
-            {listItems.map((item) => (
-              <div key={item.id}>
-                {item.id === selectedItemId && (
-                  <>
-                    <div className="img-section">
-                      <span className="switch" onClick={() => handleSelectItem(selectedItemId - 1)}>❮</span>
-                      <div className="img-container">
-                        <img className='img-choice' src={`assets/ChoiceList/${item.id}.png`} />
-                      </div>
-                      <span className="switch" onClick={() => handleSelectItem(selectedItemId + 1)}>❯</span>
-                    </div>
-                    <div className="text-block">
-                      <span className="title">{item.title}</span>
-                      <span className="description">{item.description}</span>
-                    </div>
-                  </>
-                )}
-              </div>
-            ))}
-          </div>
+            <div className="img-block-choice">
+              {listItems.map((item) => (
+                  <div key={item.id}>
+                    {item.id === selectedItemId && (
+                        <>
+                          <div className="img-section">
+                            <span className="switch-left" onClick={() => handleSelectItem(selectedItemId - 1)}>❮</span>
+                            <div className="img-container">
+                              <img className='img-choice' src={`assets/ChoiceList/${item.id}.png`} />
+                            </div>
+                            <span className="switch-right" onClick={() => handleSelectItem(selectedItemId + 1)}>❯</span>
+                          </div>
+                          <div className="text-block">
+                            <span className="title">{item.title}</span>
+                            <span className="description">{item.description}</span>
+                          </div>
+                        </>
+                    )}
+                  </div>
+              ))}
+            </div>
 
-          <div className="btns-choice">
-            <Link to='/play' onClick={() => scrollToPercentage(0)} className="criminal" onMouseEnter={() => setChoiceLife('criminal')} onMouseLeave={() => setChoiceLife('')}>Начать играть</Link>
+            <div className="btns-choice">
+              <Link to='/play' onClick={() => scrollToPercentage(0)} className="criminal" onMouseEnter={() => setChoiceLife('criminal')} onMouseLeave={() => setChoiceLife('')}>Начать играть</Link>
+            </div>
           </div>
+          <img className='gos' src={gosPerson} id={`${choiceLife == 'criminal' ? 'act-person-g' : ''}`} />
         </div>
+
       </div>
     </>
   )
